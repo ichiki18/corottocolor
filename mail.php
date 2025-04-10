@@ -30,7 +30,7 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {//PHP5.1.0以上の場合の�
 //---------------------------　必須設定　必ず設定してください　-----------------------
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示され、そのリンク先です。
-$site_top = "http://www.php-factory.net/";
+$site_top = "http://www.corottocolor.com";
 
 //管理者のメールアドレス（送信先） ※メールを受け取るメールアドレス(複数指定する場合は「,」で区切ってください 例 $to = "aa@aa.aa,bb@bb.bb";)
 $to = "watanabe_my@outlook.com";
@@ -43,7 +43,7 @@ $from = "watanabe_my@outlool.com";
 //管理者宛メールの送信元（差出人）にユーザーが入力したメールアドレスを表示する(する=1, しない=0)
 //ユーザーのメールアドレスを含めることでメーラー上で管理しやすくなる機能です。
 //例 example@gmail.com <from@sample.jp>（example@gmail.comがユーザーメールアドレス、from@sample.jpが↑の$fromで設定したメールアドレスです）
-$from_add = 0;
+$from_add = 1;
 
 //フォームのメールアドレス入力箇所のname属性の値（name="○○"　の○○部分）
 $Email = "Email";
